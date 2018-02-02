@@ -1,5 +1,7 @@
 # Markdown
 
+[![Go Report Card](https://goreportcard.com/badge/jmcfarlane/markdown)](https://goreportcard.com/report/jmcfarlane/markdown)
+
 This is a tool to render
 [markdown](https://en.wikipedia.org/wiki/Markdown) files locally, for
 use with iteration prior to pushing changes to version control.
