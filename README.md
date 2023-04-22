@@ -14,7 +14,7 @@ use with iteration prior to pushing changes to version control.
 ## Installation
 
 ```
-$ go get -u github.com/jmcfarlane/markdown
+$ go install github.com/jmcfarlane/markdown@latest
 ```
 
 ## Usage
@@ -38,19 +38,6 @@ Usage of markdown:
     	Interface:port to listen on (default ":8080")
 ```
 
-## Building locally
-
-If you happen to want to compile this locally you'd do something like:
-
-```
-
-$ go get -d github.com/jmcfarlane/markdown
-$ cd $GOPATH/src/jmcfarlane/markdown
-$ make get
-$ make
-$ ./markdown -h
-```
-
 ## Credit
 
 This program doesn't really do much of anything. All the actual work
@@ -63,4 +50,3 @@ is done by:
 As well as things ^ depend upon.
 
 > Inspired by: https://github.com/joeyespo/grip
-
