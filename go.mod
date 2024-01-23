@@ -3,6 +3,8 @@ module github.com/jmcfarlane/markdown
 go 1.20
 
 require (
+	github.com/microcosm-cc/bluemonday v1.0.23
+	github.com/russross/blackfriday v1.6.0
 	github.com/shurcooL/github_flavored_markdown v0.0.0-20210228213109-c3a9aa474629
 	github.com/sirupsen/logrus v1.9.0
 )
@@ -11,8 +13,6 @@ require (
 	github.com/aymerick/douceur v0.2.0 // indirect
 	github.com/gorilla/css v1.0.0 // indirect
 	github.com/kr/pretty v0.3.1 // indirect
-	github.com/microcosm-cc/bluemonday v1.0.23 // indirect
-	github.com/russross/blackfriday v1.6.0 // indirect
 	github.com/sergi/go-diff v1.3.1 // indirect
 	github.com/shurcooL/go v0.0.0-20200502201357-93f07166e636 // indirect
 	github.com/shurcooL/go-goon v1.0.0 // indirect
