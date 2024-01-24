@@ -1,6 +1,24 @@
 .markdown-body {
-  width: 1248px;
+  max-width: 1248px;
   margin: auto;
-  width: 50%;
+}
+
+table, th, td {
   border: 1px solid #fafafa;
+}
+
+tr > th {
+  background-color: #fbfafd;
+  border-bottom-width: medium;
+}
+
+th, td {
+  padding: 4px;
+  vertical-align: text-top;
+}
+
+pre.chroma {
+  border: 1px solid #dddddd;
+  padding: 10px;
+  border-radius: 5px;
 }
