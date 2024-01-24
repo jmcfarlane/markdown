@@ -1,7 +1,10 @@
 # build: Compile locally (no dependencies are fetched)
-build: test
-	go mod tidy
+build: tidy test
 	go build
+
+# tidy: Run go mod tidy
+tidy:
+	go mod tidy
 
 # help: This message ;)
 help:
@@ -9,7 +12,7 @@ help:
 	@grep -E '^# [-a-z./]+:' Makefile | sed -e 's|#| > make|g' | sort
 
 # install: Install into $GOPATH
-install: test
+install: build
 	go install
 
 # test: Run tests (currently there are none)
