@@ -36,6 +36,7 @@ func render(cwd string, w http.ResponseWriter, r *http.Request) {
 		<link href="/static/bootstrap.min.css" rel="stylesheet" type="text/css" />
 		<link href="/static/style.css" rel="stylesheet" type="text/css" />
 		<style>%s</style>
+		<link rel="icon" type="image/png" href="/static/markdown.png" />
 	</head><body><article class="markdown-body entry-content" style="padding: 30px;">`,
 		filepath.Base(cwd), css)
 	w.Write(body)
