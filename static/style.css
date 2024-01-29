@@ -3,6 +3,12 @@
   margin: auto;
 }
 
+blockquote {
+  border-left: 4px solid #dcdcde;
+  color: #535158;
+  padding-left: 12px;
+}
+
 table, th, td {
   border: 1px solid #fafafa;
 }
