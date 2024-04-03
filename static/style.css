@@ -9,6 +9,10 @@ blockquote {
   padding-left: 12px;
 }
 
+h2, h3, h4, h5 {
+  padding-top: 20px;
+}
+
 table, th, td {
   border: 1px solid #fafafa;
 }
