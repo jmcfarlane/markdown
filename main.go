@@ -5,6 +5,7 @@ import (
 	"flag"
 	"fmt"
 	"io"
+	"mime"
 	"net/http"
 	"os"
 	"path/filepath"
@@ -56,6 +57,10 @@ func markdownRender(cwd string, next http.Handler) http.Handler {
 		next.ServeHTTP(w, r)
 		log.WithFields(log.Fields{"file": r.URL.Path}).Info("Served")
 	})
+}
+
+func init() {
+	mime.AddExtensionType(".css", "text/css")
 }
 
 func main() {
