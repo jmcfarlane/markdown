@@ -9,11 +9,16 @@ blockquote {
   padding-left: 12px;
 }
 
-h2, h3, h4, h5 {
+h2,
+h3,
+h4,
+h5 {
   padding-top: 20px;
 }
 
-table, th, td {
+table,
+th,
+td {
   border: 1px solid #fafafa;
 }
 
@@ -22,7 +27,8 @@ tr > th {
   border-bottom-width: medium;
 }
 
-th, td {
+th,
+td {
   padding: 4px;
   vertical-align: text-top;
 }

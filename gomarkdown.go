@@ -40,7 +40,7 @@ func makeRenderer(formatter *html.Formatter, style *chroma.Style) *mdhtml.Render
 
 // https://github.com/alecthomas/chroma#supported-languages
 func makeChromaStyle() (*chroma.Style, error) {
-	styleName := "monokailight"
+	styleName := "monokai"
 	style := styles.Get(styleName)
 	if style == nil {
 		return nil, fmt.Errorf("Failed to get style=%s", styleName)

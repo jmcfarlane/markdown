@@ -30,7 +30,7 @@ func render(cwd string, w http.ResponseWriter, r *http.Request) {
 	}
 	css, body, err := renderMarkdown(b)
 	fmt.Fprintf(w, `<!doctype html>
-	<html lang="en"><head><meta charset="utf-8">
+	<html lang="en" data-bs-theme="dark"><head><meta charset="utf-8">
 		<title>%s</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
