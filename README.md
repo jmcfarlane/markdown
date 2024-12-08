@@ -7,19 +7,16 @@ This is a tool to render
 use with iteration prior to pushing changes to version control.
 
 1. All markdown rendering occurs locally
-1. Your browser will fetch some static assets from the internet:
-   1. https://cdnjs.cloudflare.com/ajax/libs/octicons/2.1.2/octicons.css
-   1. https://cdnjs.cloudflare.com/ajax/libs/octicons/2.1.2/octicons.woff
 
 ## Installation
 
-```
+```sh
 $ go install github.com/jmcfarlane/markdown@latest
 ```
 
 ## Usage
 
-```
+```sh
 $ cd ~/where/your/docs/are
 $ markdown
 ```
@@ -29,7 +26,7 @@ the page as you make changes.
 
 ## Help
 
-```
+```sh
 $ markdown -h
 Usage of markdown:
   -index string
@@ -43,9 +40,9 @@ Usage of markdown:
 This program doesn't really do much of anything. All the actual work
 is done by:
 
-- https://github.com/russross/blackfriday
-- https://github.com/shurcooL/github_flavored_markdown/
-- https://golang.org/
+- [github.com/alecthomas/chroma](https://github.com/alecthomas/chroma)
+- [github.com/gomarkdown/markdown](https://github.com/gomarkdown/markdown)
+- [golang.org](https://golang.org)
 
 As well as things ^ depend upon.
 
